@@ -17,7 +17,7 @@ int main()
     window.setFramerateLimit(60);
     
     sf::Texture tile_set;
-    if(!tile_set.loadFromFile("/Users/vitalityedge/Downloads/tile set.png")) return (-1);
+    if(!tile_set.loadFromFile("tile set.png")) return (-1);
     
     TileMap tile_map(sf::Vector2f(640, 640), sf::Vector2f(16, 16));
     
